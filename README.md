@@ -8,11 +8,11 @@ hosted as a static site so Google Play Console and the game itself can link to t
 Enable GitHub Pages for this repo (Settings → Pages → Source: `main` branch, `/` root):
 
 ```
-https://goethe47.github.io/Realmfront-legal/
+https://goethe47.github.io/Realmfront-Legal/
 ```
 
 Use that URL as the **Privacy Policy** link in Play Console. The credits page lives at
-`https://goethe47.github.io/Realmfront-legal/licenses.html` and is the link to use from
+`https://goethe47.github.io/Realmfront-Legal/licenses.html` and is the link to use from
 the game's own credits.
 
 ## Contents
