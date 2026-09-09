@@ -26,8 +26,9 @@ the game's own credits.
 The privacy policy describes an **ad-supported build**, which is what the closed test will
 ship. LevelPlay is not in the game yet, so check these off as the integration lands:
 
-- [ ] LevelPlay is actually in the build, and the ad formats match what the policy says
-      (rewarded video by choice, occasional full-screen between matches — no banner).
+- [ ] LevelPlay is actually in the build, and the ad formats match what the policy says:
+      a banner in the reserved strip at the bottom, rewarded video by choice, and an
+      occasional full-screen advertisement between matches.
 - [ ] The list of ad networks under "Advertising" matches the adapters actually included.
       Right now the page names only Unity; add any other network you enable.
 - [ ] The consent screen described under "Your choice about personalised advertising"
