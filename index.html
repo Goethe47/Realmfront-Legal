@@ -38,7 +38,8 @@
         <li><strong>Your points and permanent upgrades</strong> — the meta currency you have earned and the level of each upgrade you have bought with it.</li>
         <li><strong>Which one-off hints you have already seen</strong>, so the game stops repeating them.</li>
         <li><strong>Your music setting.</strong></li>
-        <li><strong>Your advertising preference</strong> — whether you chose personalised or non-personalised advertising.</li>
+        <li><strong>Your age bracket</strong> — whether you said you are 13–17 or 18 and over. No date of birth is asked for and none is stored.</li>
+        <li><strong>Your two advertising settings</strong> — whether ads may be personalised, and whether you asked that your personal information not be sold or shared.</li>
         <li><strong>How many matches you have finished</strong>, used only to keep the first few clear of full-screen advertisements.</li>
       </ul>
       <p>None of this contains a name, an email address, a contact, a photo, a file, a message or a location. It is not tied to any identifier that would let anyone recognise you.</p>
@@ -56,14 +57,20 @@
       </ul>
       <p>Unity's dashboard can change which advertisements and placements are served without an app update. Adding a genuinely new advertising <em>network</em> is different: it means putting its adapter into the build, which means a new version of the app, an update to this page, and an update to the Data safety section in Google Play before it goes out.</p>
 
-      <h2>Your choice about personalised advertising</h2>
-      <p>Before advertising starts, Realmfront asks every player whether they want to allow personalised advertising. This choice is shown to everyone, rather than trying to determine the player's location first.</p>
-      <p>Your choice is stored locally on your device and is passed to Unity LevelPlay before the advertising SDK starts. You can change this choice later from the game's Settings screen.</p>
-      <p>If you do not allow personalised advertising, you can still see advertisements, but the advertising services are instructed not to use your data for personalised advertising in the same way.</p>
+      <h2>Your age, and your advertising settings</h2>
+      <p>When you first open Realmfront, after choosing a language, the game asks which age bracket you are in: <strong>13–17</strong> or <strong>18 or older</strong>. It does not ask for your date of birth and does not store one. The game is intended for players aged 13 and over.</p>
+      <p><strong>If you are 13–17</strong>, advertising is never personalised and the advertising services are always told not to sell or share your personal information. There is nothing to choose, and the game says so on its own screen. This is not a way to have fewer advertisements: players under 18 see the same banners, the same rewarded videos and the same full-screen advertisements, at the same frequency, as everybody else.</p>
+      <p><strong>If you are 18 or older</strong>, you are asked two separate questions, because they are two different things:</p>
+      <ul>
+        <li><strong>How ads are selected</strong> — personalised, or not personalised.</li>
+        <li><strong>Whether your personal information may be sold or shared</strong> — a choice you make independently of the first one.</li>
+      </ul>
+      <p>Both are shown to every adult player, rather than trying to work out where you are first. Both are stored locally on your device and passed to Unity LevelPlay before the advertising SDK starts. You can change them, and correct your age bracket, from <strong>Settings → Age &amp; ads privacy</strong>. A change applies from then on; an advertisement already loaded may still have been requested under the previous setting.</p>
+      <p>Turning personalisation off does not stop advertising, and it does not stop technical data from being sent: an advertisement still has to be fetched and displayed, which needs the information described above.</p>
       <p>Android also lets you reset or delete your advertising identifier in the system privacy settings. The exact path depends on your Android version and device manufacturer.</p>
 
       <h2>Children</h2>
-      <p>Realmfront: Conquest is not directed to children under 13, and we do not knowingly collect personal data from them. If you believe a child has used the app in a way that involved their personal data, write to the address above and we will act on it.</p>
+      <p>Realmfront: Conquest is not directed to children under 13, and we do not knowingly collect personal data from them. The game asks for an age bracket on first launch and treats everyone under 18 as not eligible for personalised advertising. If you believe a child has used the app in a way that involved their personal data, write to the address above and we will act on it.</p>
 
       <h2 id="deletion">Deleting your data</h2>
       <p>Everything the game keeps is on your device, and there is no copy of your progress on a Realmfront server. The app asks Android not to include its data in backups, so <strong>uninstalling it removes that data</strong>; clearing the app's data from the Android settings does the same and leaves the app installed. Some device-transfer features may still carry app settings across, depending on your device and system settings. Because there is no account and no server copy, there is nothing further for us to delete on our side.</p>
