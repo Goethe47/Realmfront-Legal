@@ -13,7 +13,7 @@
       <p class="eyebrow">Realmfront: Conquest</p>
       <h1>Privacy Policy</h1>
       <p class="lead">What the game stores, what leaves your device, and who else is involved. This describes how the app actually behaves, not what it might do later.</p>
-      <p class="stamp">Last updated: 9 September 2026 · Package <code>com.goethe47.realmfront</code></p>
+      <p class="stamp">Last updated: 11 September 2026 · Package <code>com.goethe47.realmfront</code></p>
       <nav class="nav">
         <a href="index.html" aria-current="page">Privacy</a>
         <a href="licenses.html">Licences &amp; credits</a>
@@ -33,11 +33,13 @@
       <h2>What is stored on your device</h2>
       <p>The following is kept in the app's own local storage, on your phone. We do not run a game server, so this copy is not sent to us:</p>
       <ul>
-        <li><strong>Your chosen language</strong> and your <strong>banner colour</strong>.</li>
-        <li><strong>How far you have got</strong> in the campaign — the highest chapter unlocked and which loop of the campaign you are on.</li>
+        <li><strong>Your chosen language</strong> and your <strong>chosen realm colour</strong>.</li>
+        <li><strong>Your campaign progress</strong> — the current region, the highest region unlocked and which loop of the campaign you are on.</li>
         <li><strong>Your points and permanent upgrades</strong> — the meta currency you have earned and the level of each upgrade you have bought with it.</li>
         <li><strong>Which one-off hints you have already seen</strong>, so the game stops repeating them.</li>
         <li><strong>Your music setting.</strong></li>
+        <li><strong>Your advertising preference</strong> — whether you chose personalised or non-personalised advertising.</li>
+        <li><strong>How many matches you have finished</strong>, used only to keep the first few clear of full-screen advertisements.</li>
       </ul>
       <p>None of this contains a name, an email address, a contact, a photo, a file, a message or a location. It is not tied to any identifier that would let anyone recognise you.</p>
 
@@ -48,25 +50,27 @@
         <li><strong>Rewarded video you choose to watch.</strong> Offered in exchange for extra points, or for the bonuses the shop grants. It never starts by itself: it plays only if you tap the button offering it, and the reward is given only if the advertisement is actually watched through. Declining costs nothing.</li>
         <li><strong>An occasional full-screen advertisement</strong> between matches.</li>
       </ul>
-      <p>To select, deliver, measure and secure those advertisements, the ad services can process: your <strong>advertising identifier</strong>, your <strong>IP address</strong> and a rough location derived from it (typically the country), <strong>device and app information</strong> (model, operating system version, language, app version, network type), and <strong>information about the advertisement itself</strong> — that it was requested, shown, clicked or closed. This processing is done by those companies under their own privacy policies:</p>
+      <p>To select, deliver, measure and secure those advertisements, the advertising services can process your <strong>IP address</strong> and approximate location derived from it (typically country or region), <strong>device and advertising identifiers</strong>, <strong>device and app information</strong> (such as device model, operating system version, language, app version and network information), <strong>diagnostic and performance information</strong>, and <strong>information about your interaction with advertisements</strong> — for example whether an ad was requested, shown, clicked or closed. This processing is done by those companies under their own privacy policies:</p>
       <ul>
         <li>Unity (LevelPlay, Unity Ads and ironSource) — <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
       </ul>
       <p>Unity's dashboard can change which advertisements and placements are served without an app update. Adding a genuinely new advertising <em>network</em> is different: it means putting its adapter into the build, which means a new version of the app, an update to this page, and an update to the Data safety section in Google Play before it goes out.</p>
 
       <h2>Your choice about personalised advertising</h2>
-      <p>Where the law requires it — in the European Economic Area, the United Kingdom, Switzerland, and the US states with their own rules — the game asks for your choice before advertising starts, using the consent screen provided by the advertising SDK. You can decide not to allow personalised advertising; you will still see advertisements, but they will not be chosen using your advertising identifier in the same way.</p>
-      <p>Independently of the game, Android lets you reset or delete your advertising identifier at any time, in <strong>Settings → Privacy → Ads</strong> (the exact path varies by manufacturer and Android version).</p>
+      <p>Before advertising starts, Realmfront asks every player whether they want to allow personalised advertising. This choice is shown to everyone, rather than trying to determine the player's location first.</p>
+      <p>Your choice is stored locally on your device and is passed to Unity LevelPlay before the advertising SDK starts. You can change this choice later from the game's Settings screen.</p>
+      <p>If you do not allow personalised advertising, you can still see advertisements, but the advertising services are instructed not to use your data for personalised advertising in the same way.</p>
+      <p>Android also lets you reset or delete your advertising identifier in the system privacy settings. The exact path depends on your Android version and device manufacturer.</p>
 
       <h2>Children</h2>
       <p>Realmfront: Conquest is not directed to children under 13, and we do not knowingly collect personal data from them. If you believe a child has used the app in a way that involved their personal data, write to the address above and we will act on it.</p>
 
       <h2 id="deletion">Deleting your data</h2>
-      <p>Everything the game itself keeps is on your device, so <strong>uninstalling the app removes it</strong>. Clearing the app's data from the Android settings has the same effect and leaves the app installed. Because there is no account and no server copy, there is nothing further for us to delete on our side.</p>
+      <p>Everything the game keeps is on your device, and there is no copy of your progress on a Realmfront server. The app asks Android not to include its data in backups, so <strong>uninstalling it removes that data</strong>; clearing the app's data from the Android settings does the same and leaves the app installed. Some device-transfer features may still carry app settings across, depending on your device and system settings. Because there is no account and no server copy, there is nothing further for us to delete on our side.</p>
       <p>Data already processed by the advertising services is held by them, not by us. Their privacy policy, linked above, describes how to ask them about it.</p>
 
-      <h2>Where the map comes from</h2>
-      <p>The campaign maps are generated from public-domain geographic data and drawn on your device. The game does not read your location, and the region you play has nothing to do with where you are.</p>
+      <h2>Location</h2>
+      <p>The game does not read your device's location. The region you play is a chapter of the campaign and has nothing to do with where you are. Where the map data itself comes from is on the <a href="licenses.html">licences page</a>.</p>
 
       <h2>Permissions</h2>
       <p>The game needs internet access, and that is used for advertising only. It does not ask for the camera, the microphone, contacts, photos, files or location.</p>
