@@ -1,6 +1,6 @@
 # Realmfront Legal
 
-Privacy policy and licence credits for **Realmfront: Conquest** (`com.realmfront.conquest`),
+Privacy policy and licence credits for **Realmfront: Conquest** (`com.goethe47.realmfront`),
 hosted as a static site so Google Play Console and the game itself can link to them.
 
 ## Publishing
